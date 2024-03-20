@@ -103,10 +103,10 @@
     nvobj_rc_tcat_r03.attachTo('nvcan_rc_tcat_r03');
     nvobj_rc_tcat_r03.loadVolumes([
       { // ulay
-        url:"../radcor.pb00.tcat/epi.ulay.r03+orig.HEAD",
+        url:"./radcor.pb00.tcat/epi.ulay.r03+orig.HEAD",
         cal_max: 1986.7188,
       }, { // olay
-        url:"../radcor.pb00.tcat/radcor.20.r03.corr+orig.HEAD",
+        url:"./radcor.pb00.tcat/radcor.20.r03.corr+orig.HEAD",
         frame4D: 0,  // idx of vol
         colormap: "afni_reds_inv",
         colormapNegative: "afni_blues_inv",
@@ -114,7 +114,7 @@
         cal_max: 0.7,
         opacity: 1.0,
       }, { // thr
-        url:"../radcor.pb00.tcat/radcor.20.r03.corr+orig.HEAD",  // same dset as olay
+        url:"./radcor.pb00.tcat/radcor.20.r03.corr+orig.HEAD",  // same dset as olay
         frame4D: 0,  // idx of vol
         colormap: "blue",
         colormapNegative: "blue",

@@ -103,10 +103,10 @@
     nvobj_rc_regress_d02.attachTo('nvcan_rc_regress_d02');
     nvobj_rc_regress_d02.loadVolumes([
       { // ulay
-        url:"../MNI152_2009_template_SSW.nii.gz",
+        url:"./MNI152_2009_template_SSW.nii.gz",
         cal_max: 1188.66396,
       }, { // olay
-        url:"../radcor.pb05.regress/radcor.20.d02.errts.corr+tlrc.HEAD",
+        url:"./radcor.pb05.regress/radcor.20.d02.errts.corr+tlrc.HEAD",
         frame4D: 0,  // idx of vol
         colormap: "afni_reds_inv",
         colormapNegative: "afni_blues_inv",
@@ -114,7 +114,7 @@
         cal_max: 0.7,
         opacity: 1.0,
       }, { // thr
-        url:"../radcor.pb05.regress/radcor.20.d02.errts.corr+tlrc.HEAD",  // same dset as olay
+        url:"./radcor.pb05.regress/radcor.20.d02.errts.corr+tlrc.HEAD",  // same dset as olay
         frame4D: 0,  // idx of vol
         colormap: "blue",
         colormapNegative: "blue",

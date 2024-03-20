@@ -103,10 +103,10 @@
     nvobj_rc_volreg_r01.attachTo('nvcan_rc_volreg_r01');
     nvobj_rc_volreg_r01.loadVolumes([
       { // ulay
-        url:"../radcor.pb02.volreg/epi.ulay.r01+tlrc.HEAD",
+        url:"./radcor.pb02.volreg/epi.ulay.r01+tlrc.HEAD",
         cal_max: 1871.805305,
       }, { // olay
-        url:"../radcor.pb02.volreg/radcor.20.r01.corr+tlrc.HEAD",
+        url:"./radcor.pb02.volreg/radcor.20.r01.corr+tlrc.HEAD",
         frame4D: 0,  // idx of vol
         colormap: "afni_reds_inv",
         colormapNegative: "afni_blues_inv",
@@ -114,7 +114,7 @@
         cal_max: 0.7,
         opacity: 1.0,
       }, { // thr
-        url:"../radcor.pb02.volreg/radcor.20.r01.corr+tlrc.HEAD",  // same dset as olay
+        url:"./radcor.pb02.volreg/radcor.20.r01.corr+tlrc.HEAD",  // same dset as olay
         frame4D: 0,  // idx of vol
         colormap: "blue",
         colormapNegative: "blue",
