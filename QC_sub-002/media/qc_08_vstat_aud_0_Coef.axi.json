@@ -1,0 +1,14 @@
+{
+    "itemtype": "VOL",
+    "itemid": "aud_0_Coef",
+    "blockid": "vstat",
+    "blockid_hov": "statistics vols",
+    "title": "Check statistics vols (and effect estimates)",
+    "text": [
+        "olay: [4] 'aud#0_Coef' (in stats.sub-002)",
+        " thr: [5] 'aud#0_Tstat' (df = 412)"
+    ],
+    "av_file": "run_qc_08_vstat_aud_0_Coef.tcsh",
+    "ic_file": "run_instacorr_errts.tcsh",
+    "gv_file": "run_graphview_errts.tcsh"
+}

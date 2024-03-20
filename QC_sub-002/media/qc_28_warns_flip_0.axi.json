@@ -1,0 +1,11 @@
+{
+    "itemtype": "VOL",
+    "itemid": "flip_o",
+    "blockid": "warns",
+    "blockid_hov": "all warnings from processing",
+    "title": "Check all warnings from processing",
+    "text": "... original anat edges (BETTER match)",
+    "subtext": "olay: anatSS.sub-002_al_junk (over EPI, vr_base_min_outlier_ts_ns)",
+    "av_file": "run_qc_28_warns_flip_0.tcsh",
+    "nv_html": "qc_28_warns_flip_0.niivue.html"
+}

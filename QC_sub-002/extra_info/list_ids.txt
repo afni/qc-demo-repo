@@ -1,0 +1,46 @@
+vorig
+    EPI
+    anat
+    olap
+ve2a
+    epi2anat
+va2t
+    anat2temp
+    mask2final
+vstat
+    Full_Fstat
+    vis_0_Coef
+    aud_0_Coef
+    V-A_GLT_0_Coef
+    mean.VA_GLT_0_Coef
+mot
+    enormoutlr
+    VR6
+    grayplot
+regr
+    ideal
+    stims
+    df
+    corr_errts
+    tsnr_vreg
+    tsnr_fin
+radcor
+    rc_tcat_r01
+    rc_tcat_r02
+    rc_tcat_r03
+    rc_volreg_r01
+    rc_volreg_r02
+    rc_volreg_r03
+    rc_regress_d02
+warns
+    xmat
+    cen_total
+    cen_stim
+    press
+    sat_4095
+    flip
+    flip_o
+    flip_f
+    vlines
+qsumm
+    ssrev

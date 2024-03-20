@@ -1,0 +1,19 @@
+
+dset: MNI_2009c_asym (ROI_import_MNI_2009c_asym_resam), Nroi: 12
+----------------------------------------------------------------
+
+   ROI   Nvox  Nzer  Dvox   Tmin  T25%  Tmed  T75%  Tmax     X      Y      Z    ROI_name
+   ---   ----  ----  ----   ----  ----  ----  ----  ----   -----  -----  -----  --------
+    10    448     8   2.2     44   143   206   245   328     5.0   91.8    0.5  SYAF-LH_VisCent_Striate_1
+    11   1071     4   2.8     29   182   237   274   452    42.5   16.8   55.5  SYAF-LH_SomMotA_1
+    12    794     0   2.4     65   121   159   200   305     7.5  -20.8   33.0  SYAF-LH_SalVentAttnB_PFCmp_1
+    13   1337     5   3.0      5    <span style="background-color: #FF7F7F">18</span>    <span style="background-color: #FF7F7F">40</span>    <span style="background-color: #FF7F7F">82</span>   325    15.0  -23.2  -22.0  SYAF-LH_LimbicB_OFC_1
+    14   1971  <span style="background-color: #FF0000">1345</span>   3.0      8    <span style="background-color: #EAEA99">50</span>    <span style="background-color: #EAEA99">73</span>   <span style="background-color: #EAEA99">105</span>   185    27.5   11.8  -29.5  SYAF-LH_LimbicA_TempPole_1
+    20    839    15   2.2      9   130   179   212   330   -10.0   66.8   10.5  GHCP-R_Primary_Visual_Cortex
+    21    282    <span style="background-color: #EAEA99">15</span>   <span style="background-color: #FFC3C4">1.4</span>     67   171   220   265   405    -7.5   34.2   78.0  GHCP-R_Primary_Sensory_Cortex
+    22     92     0   1.7    108   174   203   240   314    -5.0  -25.8   28.0  GHCP-R_Anterior_24_prime
+    23    342     0   2.2      8    <span style="background-color: #EAEA99">15</span>    <span style="background-color: #EAEA99">21</span>    <span style="background-color: #FF0000">28</span>    93   -10.0  -35.8  -24.5  GHCP-R_Orbital_Frontal_Complex
+    24    660   <span style="background-color: #FF0000">433</span>   2.2     15    <span style="background-color: #FFC3C4">42</span>    <span style="background-color: #FFC3C4">62</span>   <span style="background-color: #FFC3C4">110</span>   271   -45.0  -15.8  -34.5  GHCP-R_Area_TG_dorsal
+    30    180    <span style="background-color: #EAEA99">11</span>   2.2     10    <span style="background-color: #FFC3C4">27</span>    <span style="background-color: #FFC3C4">47</span>    <span style="background-color: #FF7F7F">76</span>   140   -22.5   -0.8  -24.5  JULI-RH_Amygdala
+    31     34     0   <span style="background-color: #FF7F7F">1.0</span>     62   166   195   217   237    -5.0   -8.2   -4.5  JULI-RH_Accumbens
+

@@ -1,0 +1,14 @@
+{
+    "itemtype": "VOL",
+    "itemid": "rc_tcat_r02",
+    "blockid": "radcor",
+    "blockid_hov": "@radial_correlate vols",
+    "title": "Check extent of local correlation",
+    "nv_html": "qc_22_radcor_rc_tcat_r02.niivue.html",
+    "av_file": "run_qc_22_radcor_rc_tcat_r02.tcsh",
+    "ic_file": "run_instacorr_pbrun.tcsh",
+    "ic_args": "pb00 r02",
+    "gv_file": "run_graphview_pbrun.tcsh",
+    "gv_args": "pb00 r02",
+    "text": "olay: radcor.20.r02.corr"
+}

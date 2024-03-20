@@ -1,0 +1,9 @@
+++ computing 4095_warn, nvox = 211200, nmask = 211200, nt = 150
+++ global max = 3792.000000, global 4095 count = 0
+++ max of 3792 is okay, clearing results...
+++ computing 4095_warn, nvox = 211200, nmask = 211200, nt = 150
+++ global max = 3675.000000, global 4095 count = 0
+++ max of 3675 is okay, clearing results...
+++ computing 4095_warn, nvox = 211200, nmask = 211200, nt = 150
+++ global max = 3786.000000, global 4095 count = 0
+++ max of 3786 is okay, clearing results...

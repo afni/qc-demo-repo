@@ -1,0 +1,33 @@
+{
+    "itemtype": "CBAR",
+    "cbar": "Reds_and_Blues_Inv",
+    "pbar_fname": "qc_22_radcor_rc_regress_d02.pbar.jpg",
+    "pbar_bot": -0.7,
+    "pbar_top": 0.7,
+    "pbar_comm": "ulay is MNI152_2009_template_SSW.nii.gz",
+    "pbar_sign": "-",
+    "olay_alpha": "Yes",
+    "olay_boxed": "No",
+    "olay_opacity": 9,
+    "see_olay": "+",
+    "subbb": [
+        0,
+        0,
+        0
+    ],
+    "coor_type": "SET_DICOM_XYZ",
+    "coors": [
+        1,
+        18,
+        25
+    ],
+    "is_left_left": "YES",
+    "is_left_post": "NO",
+    "vthr": 0.4,
+    "vthr_comm": "alpha on",
+    "gen_comm": "",
+    "ulay_bot": 0.0,
+    "ulay_top": 1188.66396,
+    "ulay_globran": "VOLUME",
+    "ulay_comm": ""
+}

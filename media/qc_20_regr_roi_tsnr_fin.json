@@ -1,0 +1,8 @@
+{
+    "itemtype": "DAT",
+    "itemid": "roi_tsnr_fin",
+    "blockid": "regr",
+    "blockid_hov": "regressors",
+    "title": "Check regressors, DFs and residuals",
+    "text": "ROI shape and TSNR stats (tsnr_stats_regress/stats_auto_MNI_2009c_asym.txt)"
+}

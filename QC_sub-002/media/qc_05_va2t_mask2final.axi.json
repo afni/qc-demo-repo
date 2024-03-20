@@ -1,0 +1,12 @@
+{
+    "itemtype": "VOL",
+    "itemid": "mask2final",
+    "blockid": "va2t",
+    "blockid_hov": "vol alignment (anat-template)",
+    "title": "Check vol alignment (anat to template)",
+    "text": [
+        "ulay: MNI152_2009_template_SSW.nii.gz (template dset)",
+        "olay: mask_epi_anat.sub-002 (final EPI mask coverage)"
+    ],
+    "av_file": "run_qc_05_va2t_mask2final.tcsh"
+}

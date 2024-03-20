@@ -1,0 +1,24 @@
+itemtype     :: CBAR
+cbar         :: "gray_scale flip"
+pbar_fname   :: "qc_30_warns_flip_1.pbar.jpg"
+pbar_bot     :: "0"
+pbar_top     :: "1113.306763"
+pbar_comm    :: ""
+pbar_sign    :: "+"
+olay_alpha   :: "No"
+olay_boxed   :: "No"
+olay_opacity :: "9"
+see_olay     :: "+"
+subbb        :: 0 ,, 0 ,, 0
+coor_type    :: "SET_DICOM_XYZ"
+coors        :: -2.662201 ,, -1.778702 ,, 30.34942
+is_left_left :: "YES"
+is_left_post :: "NO"
+vthr         :: "0"
+vthr_comm    :: ""
+gen_comm     :: ""
+ulay_bot     :: "0.000000"
+ulay_top     :: "2142.840000"
+ulay_globran :: "VOLUME"
+ulay_comm    :: ""
+

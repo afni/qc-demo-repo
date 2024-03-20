@@ -1,0 +1,8 @@
+{
+    "itemtype": "VOL",
+    "itemid": "anat2temp",
+    "blockid": "va2t",
+    "blockid_hov": "vol alignment (anat-template)",
+    "title": "Check vol alignment (anat to template)",
+    "nv_html": "qc_04_va2t_anat2temp.niivue.html"
+}

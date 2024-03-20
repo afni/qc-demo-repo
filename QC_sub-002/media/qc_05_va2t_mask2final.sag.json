@@ -1,0 +1,8 @@
+{
+    "itemtype": "VOL",
+    "itemid": "mask2final",
+    "blockid": "va2t",
+    "blockid_hov": "vol alignment (anat-template)",
+    "title": "Check vol alignment (anat to template)",
+    "nv_html": "qc_05_va2t_mask2final.niivue.html"
+}

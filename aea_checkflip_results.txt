@@ -1,0 +1,7 @@
+flip_cost_orig : -0.404627
+flip_cost_flipped : -0.182814
+flip_cost_func : lpc+ZZ
+flip_base: vr_base_min_outlier_ts_ns+orig.HEAD
+flip_dset_orig : anatSS.sub-002_al_junk+orig.HEAD
+flip_dset_flipped : anatSS.sub-002_flip_al_junk+orig.HEAD
+flip_guess : NO_FLIP

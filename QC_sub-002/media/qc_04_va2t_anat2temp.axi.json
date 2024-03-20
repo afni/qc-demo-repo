@@ -1,0 +1,12 @@
+{
+    "itemtype": "VOL",
+    "itemid": "anat2temp",
+    "blockid": "va2t",
+    "blockid_hov": "vol alignment (anat-template)",
+    "title": "Check vol alignment (anat to template)",
+    "text": [
+        "ulay: anat_final.sub-002 (anat)",
+        "olay: MNI152_2009_template_SSW.nii.gz (template edges)"
+    ],
+    "av_file": "run_qc_04_va2t_anat2temp.tcsh"
+}

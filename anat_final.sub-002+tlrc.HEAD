@@ -1,0 +1,121 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 3074
+'[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] ===================================\n[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] === History of inputs to 3dcalc ===\n[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] === Input a:\n[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] [rickr@manwe.nimh.nih.gov: Thu Mar 18 11:19:16 2010] 3dcopy anat1.nii FT_anat\n[ptaylor@Valta-X3: Sat Jan 20 14:27:10 2024] {AFNI_24.0.01:linux_ubuntu_16_64_glw_local_shared} 3dcopy FT/FT_anat+orig sub-002/anat/sub-002_T1w.nii.gz\n[ptaylor@Valta-X3: Wed Mar 20 10:01:55 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dUnifize -GM -clfrac 0.4 -Urad 30 -prefix /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatU.sub-002.nii -input /data/PROJECTS/draft_apqc/data_proc_example/sub-002/anat/sub-002_T1w.nii.gz\n[ptaylor@Valta-X3: Wed Mar 20 10:02:01 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3danisosmooth -iters 1 -3D -automask -noneg -prefix /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatUA.sub-002.nii /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatU.sub-002.nii\n[ptaylor@Valta-X3: Wed Mar 20 10:02:02 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dcalc -a /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatUA.sub-002.nii -expr 'maxbelow(1476.545166,a)' -prefix /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatUAC.sub-002.nii\n[ptaylor@Valta-X3: Wed Mar 20 11:22:54 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dNwarpApply -warp '/data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatQQ.sub-002_WARP.nii /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatQQ.sub-002.aff12.1D' -source /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatUAC.sub-002.nii -master /data/REF_TEMPLATES_AFNI/MNI152_2009_template_SSW.nii.gz -prefix /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/junk_sswQQnew.nii\n[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] === Input b:\n[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] [ptaylor@Eomer: Sun Jul  1 23:37:45 2018] {AFNI_18.1.33:linux_ubuntu_12_64} 3dcopy MNI152_2009_template.nii.gz MNI152_2009_template_SSW.nii.gz\n[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] ===================================\n[ptaylor@Valta-X3: Wed Mar 20 11:23:15 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dcalc -a /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/junk_sswQQnew.nii -b '/data/REF_TEMPLATES_AFNI/MNI152_2009_template_SSW.nii.gz[3]' -expr 'a*step(b)' -prefix /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatQQ.sub-002.nii\n[ptaylor@Valta-X3: Wed Mar 20 11:25:21 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dcopy /data/PROJECTS/draft_apqc/data_proc_example/sub-002/derivatives/ssw/anatQQ.sub-002.nii sub-002.results/anatQQ.sub-002\n[ptaylor@Valta-X3: Wed Mar 20 11:48:24 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dcopy anatQQ.sub-002+tlrc anat_final.sub-002~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'AFN_mx8NVy1-mxbIwxRmBm0x4w~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Wed Mar 20 11:48:24 2024~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 2 11 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 1 2 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+             96            132            -78
+
+type  = float-attribute
+name  = DELTA
+count = 3
+             -1             -1              1
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+             -1              0              0             96              0
+             -1              0            132              0              0
+              1            -78
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+             -1              0              0             96              0
+             -1              0            132              0              0
+              1            -78
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0       1476.545
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 193 229 193 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 3
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 3
+'#0~
+
+type = string-attribute
+name = BRICK_KEYWORDS
+count = 1
+'~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 4
+'MNI~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

@@ -1,0 +1,116 @@
+
+type = string-attribute
+name = HISTORY_NOTE
+count = 603
+'[ptaylor@Valta-X3: Wed Mar 20 11:25:27 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dTcat -prefix sub-002.results/pb00.sub-002.r03.tcat '/data/PROJECTS/draft_apqc/data_proc_example/sub-002/func/sub-002_task-avrel_run-3_bold.nii.gz[2..$]'\n[ptaylor@Valta-X3: Wed Mar 20 11:28:00 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dTshift -tzero 0 -quintic -prefix pb01.sub-002.r03.tshift pb00.sub-002.r03.tcat+orig\n[ptaylor@Valta-X3: Wed Mar 20 11:28:04 2024] {AFNI_24.0.13:linux_ubuntu_16_64_glw_local_shared} 3dbucket -prefix vr_base_min_outlier 'pb01.sub-002.r03.tshift+orig[24]'~
+
+type = string-attribute
+name = TYPESTRING
+count = 15
+'3DIM_HEAD_ANAT~
+
+type = string-attribute
+name = IDCODE_STRING
+count = 27
+'AFN_05WbdtBskUWOOScYCfKmuA~
+
+type = string-attribute
+name = IDCODE_DATE
+count = 25
+'Wed Mar 20 11:28:04 2024~
+
+type = integer-attribute
+name = SCENE_DATA
+count = 8
+ 0 11 0 -999 -999
+ -999 -999 -999
+
+type = string-attribute
+name = LABEL_1
+count = 5
+'zyxt~
+
+type = string-attribute
+name = LABEL_2
+count = 5
+'zyxt~
+
+type = string-attribute
+name = DATASET_NAME
+count = 5
+'zyxt~
+
+type = integer-attribute
+name = ORIENT_SPECIFIC
+count = 3
+ 0 3 4
+
+type  = float-attribute
+name  = ORIGIN
+count = 3
+      -112.6622      -122.7787      -17.65058
+
+type  = float-attribute
+name  = DELTA
+count = 3
+           2.75           2.75              3
+
+type  = float-attribute
+name  = IJK_TO_DICOM
+count = 12
+           2.75              0              0      -112.6622              0
+           2.75              0      -122.7787              0              0
+              3      -17.65058
+
+type  = float-attribute
+name  = IJK_TO_DICOM_REAL
+count = 12
+           2.75              0              0      -112.6622              0
+           2.75              0      -122.7787              0              0
+              3      -17.65058
+
+type  = float-attribute
+name  = BRICK_STATS
+count = 2
+              0           2909
+
+type = integer-attribute
+name = DATASET_RANK
+count = 8
+ 3 1 0 0 0
+ 0 0 0
+
+type = integer-attribute
+name = DATASET_DIMENSIONS
+count = 5
+ 80 80 33 0 0
+
+type = integer-attribute
+name = BRICK_TYPES
+count = 1
+ 1
+
+type  = float-attribute
+name  = BRICK_FLOAT_FACS
+count = 1
+              0
+
+type = string-attribute
+name = BRICK_LABS
+count = 4
+'#26~
+
+type = string-attribute
+name = TEMPLATE_SPACE
+count = 5
+'ORIG~
+
+type = integer-attribute
+name = INT_CMAP
+count = 1
+ 0
+
+type = string-attribute
+name = BYTEORDER_STRING
+count = 10
+'LSB_FIRST~

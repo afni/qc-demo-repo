@@ -1,0 +1,33 @@
+{
+    "itemtype": "CBAR",
+    "cbar": "Reds_and_Blues_Inv",
+    "pbar_fname": "qc_10_vstat_mean.VA_GLT_0_Coef.pbar.jpg",
+    "pbar_bot": -3.626618,
+    "pbar_top": 3.626618,
+    "pbar_comm": "99%ile in suprathresh mask voxels",
+    "pbar_sign": "-",
+    "olay_alpha": "Yes",
+    "olay_boxed": "Yes",
+    "olay_opacity": 9,
+    "see_olay": "+",
+    "subbb": [
+        0,
+        10,
+        11
+    ],
+    "coor_type": "SET_DICOM_XYZ",
+    "coors": [
+        1,
+        17,
+        5
+    ],
+    "is_left_left": "YES",
+    "is_left_post": "NO",
+    "vthr": 3.314297,
+    "vthr_comm": "two-sided p=0.001, alpha+boxed on",
+    "gen_comm": "",
+    "ulay_bot": 0.0,
+    "ulay_top": 1296.72432,
+    "ulay_globran": "VOLUME",
+    "ulay_comm": ""
+}
